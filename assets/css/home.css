@@ -259,7 +259,7 @@ h3 {
 /*---------------------------------------------------------------------------*/
 
 
-#about-me .container {
+.about-me .container {
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -267,7 +267,7 @@ h3 {
   gap: 70px;
 }
 
-#about-me .content {
+.about-me .content {
   font-weight: 250;
   max-width: 500px;
 }

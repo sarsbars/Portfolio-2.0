@@ -1,20 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
-    
-    const downArrow = document.getElementById('scroll-down');
-    const targetSection = document.getElementById('about-me');
-    
+import * as utils from "./utils.js"
 
-    downArrow.addEventListener('click', function() {
-        targetSection.scrollIntoView({ behavior: 'smooth' });
+window.onload = () => { 
+    const downArrow = utils.select('.header-down-arrow');
+    console.log("downArrow:", downArrow);
+    const aboutSection = utils.select('.about-me');
+    const contactButton = utils.select('.get-in-touch-button');
+    const contactSection = utils.select('.contact-me');
+
+    utils.listen('click', downArrow, () => {
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+        
     });
 
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    const contactButton = document.querySelector('.get-in-touch-button'); 
-    const contactSection = document.querySelector('.contact-me'); 
-
-    contactButton.addEventListener('click', function(event) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });     
+    utils.listen('click', contactButton, () => {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
     });
-});
+};
