@@ -160,20 +160,9 @@ header {
           max-width: 800px; 
           padding: 0 20px; 
       }
-
-      a {
-          text-decoration: none;
-          padding: 12px 32px;
-          
-          border-radius: 30px;
-          color: #fff;
-          border:solid #fff;
-          &:hover {
-            box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
-        }  
-      }
+    }
   }
-}
+
 
 /*---------------------------------------------------------------------------*/
 /*------------------------------Down Arrow ----------------------------------*/
@@ -282,6 +271,11 @@ p {
   margin-bottom: 20px;
 }
 
+.figure-and-button {
+  flex-direction: column;
+  
+
+}
 figure {
   width: 300px; 
   height: 300px;
@@ -298,6 +292,18 @@ figure img {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--primary-colour);
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 32px;
+  width: 160px;
+  border-radius: 30px;
+  color: #fff;
+  border:solid #fff;
+  &:hover {
+    box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
+  }
 }
 
 
