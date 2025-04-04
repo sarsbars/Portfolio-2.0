@@ -2,7 +2,7 @@
 
 This is my professional portfolio for my software development career, it is also the final project for Technical Writing Skills, for the Software Development program at Manitoba Institute of Trades and Technology.
 
-![Example of Portfolio ](./assets/img/example-01.png)
+![Example of Portfolio ](./assets/img/portfolio-screenshot.png)
 
 ### Examples
 Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalakshan.com/), [Dev Khandelwal's Portfolio](https://slyro.vercel.app/) and [Andre Specht's Portfolio](https://andrespecht.dev/)
@@ -16,8 +16,6 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 - Infinite Scroll Animation: The "Proficiencies" section features an infinite scroll animation, showcasing various technologies and skills in a visually appealing manner. 
 
 
-
-
 ### Technologies I Used
 - HTML5
 - CSS3
@@ -25,5 +23,6 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 - Markdown
 - Github Pages
 - Google Fonts
+- ES Modules and utlity functions
 
 ### Check it out [here](https://sarsbars.github.io/portfolio/)
