@@ -223,7 +223,7 @@ header {
 
     h3 {
         font-size: 3.5rem;
-        color: var(--primary-colour);
+        color: #fff;
         line-height: 1.2;
     }
 
@@ -238,7 +238,7 @@ h3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: var(--primary-colour);
+  color: #fff;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -353,7 +353,7 @@ a {
 }
 
 .contact-me h3 {
-  color: var(--primary-colour); 
+  color: #fff;
   font-size: 3.5rem; 
   margin-bottom: 20px; 
 }
