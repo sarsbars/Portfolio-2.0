@@ -391,17 +391,20 @@ a {
 }
 
 .contact-me button {
-  padding: 15px 30px;
-  background-color: var(--primary-colour); 
+  padding: 12px 32px;
+  background-color: transparent; 
   color: #fff;
-  border: none;
+  border:solid #fff;
   border-radius: 30px; 
   font-size: 1.2rem;
   cursor: pointer;
   max-width: 180px;
   margin: auto;
-}
 
+  &:hover {
+    box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
+  }
+}
 
 /*---------------------------------------------------------------------------*/
 /*-----------------------------Infinite Scroll-------------------------------*/
