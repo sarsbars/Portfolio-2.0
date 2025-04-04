@@ -10,19 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
-    const contactButton = document.querySelector('.header-button'); 
+    const contactButton = document.querySelector('.get-in-touch-button'); 
     const contactSection = document.querySelector('.contact-me'); 
 
     contactButton.addEventListener('click', function(event) {
-        event.preventDefault(); 
-
-        const offsetTop = contactSection.offsetTop; 
-
-        window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth' 
-        });
+        contactSection.scrollIntoView({ behavior: 'smooth' });     
     });
 });
