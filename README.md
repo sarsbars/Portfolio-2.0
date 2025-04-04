@@ -25,4 +25,4 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 - Google Fonts
 - ES Modules and utlity functions
 
-### Check it out [here](https://sarsbars.github.io/portfolio/)
+### Check it out [here](https://sarsbars.github.io/Portfolio-2.0/)
