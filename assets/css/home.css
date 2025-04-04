@@ -173,10 +173,8 @@ header {
 .header-down-arrow {
   position: absolute;
   bottom: 4dvh;
-  justify-items: center;
   left: 0;
-  right: 0;
-  text-align: center;
+  right: 0;   
   z-index: 10;
   cursor: pointer;
 }
@@ -273,9 +271,8 @@ p {
 
 .figure-and-button {
   flex-direction: column;
-  
-
 }
+
 figure {
   width: 300px; 
   height: 300px;
@@ -668,6 +665,12 @@ footer {
     p {
       font-size: 1.2rem;
     }
+  }
+  .get-in-touch-button {
+    font-size: 1.2rem; 
+    padding: 8px 20px; 
+    width: auto; 
+    height: auto; 
   }
 
   footer .container {
