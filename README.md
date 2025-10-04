@@ -15,7 +15,13 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 
 - Infinite Scroll Animation: The "Proficiencies" section features an infinite scroll animation, showcasing various technologies and skills in a visually appealing manner. 
 
-
+### Use Cases
+- Job seekers can use it as a template for their own portfolios, adapting the infinite scroll to display personal skills and attract recruiters.
+- 
+- Employers browsing the site on various devices can quickly assess my technical abilities through responsive layouts and animated elements.
+- 
+- Students in similar programs might reference it for inspiration on structuring technical writing projects with visual flair.
+  
 ### Technologies I Used
 - HTML5
 - CSS3
@@ -25,4 +31,11 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 - Google Fonts
 - ES Modules and utlity functions
 
+#@# Future Developments
+- Add a projects gallery with interactive thumbnails and detailed case studies for deeper insights.
+  
+- Integrate a contact form with email functionality using JavaScript for direct inquiries.
+  
+- Incorporate dark mode toggle to improve user experience in low-light environments.
+  
 ### Check it out [here](https://sarsbars.github.io/Portfolio-2.0/)
