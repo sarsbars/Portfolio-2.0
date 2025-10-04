@@ -17,9 +17,9 @@ Some examples I used were [Malinda Lakshan's Porfolio](https://www.malindalaksha
 
 ### Use Cases
 - Job seekers can use it as a template for their own portfolios, adapting the infinite scroll to display personal skills and attract recruiters.
-- 
+  
 - Employers browsing the site on various devices can quickly assess my technical abilities through responsive layouts and animated elements.
-- 
+  
 - Students in similar programs might reference it for inspiration on structuring technical writing projects with visual flair.
   
 ### Technologies I Used
